@@ -1,0 +1,121 @@
+Initialized native services in: /Users/andreas/.gradle/native
+Initialized jansi services in: /Users/andreas/.gradle/native
+The client will now receive all logging from the daemon (pid: 6074). The daemon log file: /Users/andreas/.gradle/daemon/9.3.0/daemon-6074.out.log
+Starting 14th build in daemon [uptime: 32 mins 16.432 secs, performance: 100%, GC rate: 0.00/s, heap usage: 4% of 512 MiB, non-heap usage: 22% of 384 MiB]
+Using 14 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [/Users/andreas/git/TogetherMath] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/andreas/git/TogetherMath/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/andreas/git/TogetherMath/build.gradle.kts'.
+Included projects: [root project 'TogetherMath']
+
+> Configure project :
+Evaluating root project 'TogetherMath' using build file '/Users/andreas/git/TogetherMath/build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.2.21']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.spring', version: '2.2.21']
+Resolved plugin [id: 'org.springframework.boot', version: '3.4.11']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Build ccb346c0-0d10-4251-8426-2a1fac9c7a1a is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Applying dependency management to configuration 'annotationProcessor' in project 'TogetherMath'
+Applying dependency management to configuration 'api' in project 'TogetherMath'
+Applying dependency management to configuration 'apiDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'apiElements' in project 'TogetherMath'
+Applying dependency management to configuration 'archives' in project 'TogetherMath'
+Applying dependency management to configuration 'bootArchives' in project 'TogetherMath'
+Applying dependency management to configuration 'compileClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'compileOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'compileOnlyDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'default' in project 'TogetherMath'
+Applying dependency management to configuration 'developmentOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'implementation' in project 'TogetherMath'
+Applying dependency management to configuration 'implementationDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'intransitiveDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinBouncyCastleConfiguration' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinBuildToolsApiClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathMain' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathTest' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinInternalAbiValidation' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinKlibCommonizerClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinNativeCompilerPluginClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinScriptDef' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinScriptDefExtensions' in project 'TogetherMath'
+Applying dependency management to configuration 'mainSourceElements' in project 'TogetherMath'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeElements' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'swiftExportClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'swiftExportClasspathResolvable' in project 'TogetherMath'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'TogetherMath'
+Applying dependency management to configuration 'testApi' in project 'TogetherMath'
+Applying dependency management to configuration 'testApiDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testCompileClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'testCompileOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'testCompileOnlyDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testImplementation' in project 'TogetherMath'
+Applying dependency management to configuration 'testImplementationDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testIntransitiveDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testKotlinScriptDef' in project 'TogetherMath'
+Applying dependency management to configuration 'testKotlinScriptDefExtensions' in project 'TogetherMath'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'TogetherMath'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestImplementation' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestCompileOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestCompileClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestAnnotationProcessor' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestRuntimeOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestRuntimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestApi' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestApiDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestImplementationDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestCompileOnlyDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestIntransitiveDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathIntegrationTest' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestKotlinScriptDef' in project 'TogetherMath'
+kotlin scripting plugin: created the scripting discovery configuration: integrationTestKotlinScriptDef
+Applying dependency management to configuration 'integrationTestKotlinScriptDefExtensions' in project 'TogetherMath'
+Applying dependency management to configuration 'apiElements-published' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeElements-published' in project 'TogetherMath'
+All projects evaluated.
+Task name matched 'help'
+Selected primary task 'help' from project :
+Tasks to be executed: [task ':help']
+Tasks that were excluded: []
+Resolve mutations for :help (Thread[#2567,Execution worker,5,main]) started.
+:help (Thread[#2567,Execution worker,5,main]) started.
+
+> Task :help
+Caching disabled for task ':help' because:
+  Build cache is disabled
+Task ':help' is not up-to-date because:
+  Task has not declared any outputs despite executing actions.
+
+Welcome to Gradle 9.3.0.
+
+To run a build, run gradlew <task> ...
+
+To see a list of available tasks, run gradlew tasks
+
+To see more detail about a task, run gradlew help --task <task>
+
+To see a list of command-line options, run gradlew --help
+
+For more detail on using Gradle, see https://docs.gradle.org/9.3.0/userguide/command_line_interface.html
+
+For troubleshooting, visit https://help.gradle.org
+Build ccb346c0-0d10-4251-8426-2a1fac9c7a1a is closed
+
+BUILD SUCCESSFUL in 294ms
+1 actionable task: 1 executed
+Watched directory hierarchies: [/Users/andreas/git/TogetherMath]
+Consider enabling configuration cache to speed up this build: https://docs.gradle.org/9.3.0/userguide/configuration_cache_enabling.html

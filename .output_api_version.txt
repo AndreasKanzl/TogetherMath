@@ -1,0 +1,254 @@
+Initialized native services in: /Users/andreas/.gradle/native
+Initialized jansi services in: /Users/andreas/.gradle/native
+The client will now receive all logging from the daemon (pid: 6074). The daemon log file: /Users/andreas/.gradle/daemon/9.3.0/daemon-6074.out.log
+Starting 16th build in daemon [uptime: 32 mins 57.892 secs, performance: 100%, GC rate: 0.00/s, heap usage: 4% of 512 MiB, non-heap usage: 22% of 384 MiB]
+Using 14 worker leases.
+Operational build model parameters: {requiresToolingModels=false, parallelProjectExecution=false, configureOnDemand=false, configurationCache=false, configurationCacheParallelStore=false, configurationCacheParallelLoad=true, isolatedProjects=false, parallelProjectConfiguration=false, intermediateModelCache=false, parallelToolingApiActions=false, invalidateCoupledProjects=false, modelAsProjectDependency=false, resilientModelBuilding=false}
+Now considering [/Users/andreas/git/TogetherMath] as hierarchies to watch
+Watching the file system is configured to be enabled if available
+File system watching is active
+Starting Build
+Settings evaluated using settings file '/Users/andreas/git/TogetherMath/settings.gradle.kts'.
+Projects loaded. Root project using build file '/Users/andreas/git/TogetherMath/build.gradle.kts'.
+Included projects: [root project 'TogetherMath']
+
+> Configure project :
+Evaluating root project 'TogetherMath' using build file '/Users/andreas/git/TogetherMath/build.gradle.kts'.
+Resolved plugin [id: 'org.jetbrains.kotlin.jvm', version: '2.2.21']
+Resolved plugin [id: 'org.jetbrains.kotlin.plugin.spring', version: '2.2.21']
+Resolved plugin [id: 'org.springframework.boot', version: '3.4.11']
+Resolved plugin [id: 'io.spring.dependency-management', version: '1.1.7']
+Build d4dfcdc6-e661-496d-ac0d-7c4ff8e96721 is started
+Using Kotlin Gradle Plugin gradle813 variant
+kotlin scripting plugin: created the scripting discovery configuration: kotlinScriptDef
+kotlin scripting plugin: created the scripting discovery configuration: testKotlinScriptDef
+Applying dependency management to configuration 'annotationProcessor' in project 'TogetherMath'
+Applying dependency management to configuration 'api' in project 'TogetherMath'
+Applying dependency management to configuration 'apiDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'apiElements' in project 'TogetherMath'
+Applying dependency management to configuration 'archives' in project 'TogetherMath'
+Applying dependency management to configuration 'bootArchives' in project 'TogetherMath'
+Applying dependency management to configuration 'compileClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'compileOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'compileOnlyDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'default' in project 'TogetherMath'
+Applying dependency management to configuration 'developmentOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'implementation' in project 'TogetherMath'
+Applying dependency management to configuration 'implementationDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'intransitiveDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinBouncyCastleConfiguration' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinBuildToolsApiClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathMain' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathTest' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinInternalAbiValidation' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinKlibCommonizerClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinNativeCompilerPluginClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinScriptDef' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinScriptDefExtensions' in project 'TogetherMath'
+Applying dependency management to configuration 'mainSourceElements' in project 'TogetherMath'
+Applying dependency management to configuration 'productionRuntimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeElements' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'swiftExportClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'swiftExportClasspathResolvable' in project 'TogetherMath'
+Applying dependency management to configuration 'testAndDevelopmentOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'testAnnotationProcessor' in project 'TogetherMath'
+Applying dependency management to configuration 'testApi' in project 'TogetherMath'
+Applying dependency management to configuration 'testApiDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testCompileClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'testCompileOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'testCompileOnlyDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testImplementation' in project 'TogetherMath'
+Applying dependency management to configuration 'testImplementationDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testIntransitiveDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'testKotlinScriptDef' in project 'TogetherMath'
+Applying dependency management to configuration 'testKotlinScriptDefExtensions' in project 'TogetherMath'
+Applying dependency management to configuration 'testResultsElementsForTest' in project 'TogetherMath'
+Applying dependency management to configuration 'testRuntimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'testRuntimeOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestImplementation' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestCompileOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestCompileClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestAnnotationProcessor' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestRuntimeOnly' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestRuntimeClasspath' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestApi' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestApiDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestImplementationDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestCompileOnlyDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestIntransitiveDependenciesMetadata' in project 'TogetherMath'
+Applying dependency management to configuration 'kotlinCompilerPluginClasspathIntegrationTest' in project 'TogetherMath'
+Applying dependency management to configuration 'integrationTestKotlinScriptDef' in project 'TogetherMath'
+kotlin scripting plugin: created the scripting discovery configuration: integrationTestKotlinScriptDef
+Applying dependency management to configuration 'integrationTestKotlinScriptDefExtensions' in project 'TogetherMath'
+Applying dependency management to configuration 'apiElements-published' in project 'TogetherMath'
+Applying dependency management to configuration 'runtimeElements-published' in project 'TogetherMath'
+All projects evaluated.
+Task name matched 'test'
+Selected primary task 'test' from project :
+Starting process 'command '/usr/libexec/java_home''. Working directory: /Users/andreas/.gradle/daemon/9.3.0 Command: /usr/libexec/java_home -V
+Successfully started process 'command '/usr/libexec/java_home''
+Resolving global dependency management for project 'TogetherMath'
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Excluding []
+Tasks to be executed: [task ':checkKotlinGradlePluginConfigurationErrors', task ':compileKotlin', task ':compileJava', task ':processResources', task ':classes', task ':jar', task ':compileTestKotlin', task ':compileTestJava', task ':processTestResources', task ':testClasses', task ':test']
+Tasks that were excluded: []
+Resolve mutations for :checkKotlinGradlePluginConfigurationErrors (Thread[#2893,Execution worker,5,main]) started.
+:checkKotlinGradlePluginConfigurationErrors (Thread[#2897,Execution worker Thread 5,5,main]) started.
+
+> Task :checkKotlinGradlePluginConfigurationErrors SKIPPED
+Skipping task ':checkKotlinGradlePluginConfigurationErrors' as task onlyIf 'errorDiagnostics are present' is false.
+Resolve mutations for :compileKotlin (Thread[#2897,Execution worker Thread 5,5,main]) started.
+:compileKotlin (Thread[#2897,Execution worker Thread 5,5,main]) started.
+
+> Task :compileKotlin UP-TO-DATE
+Excluding []
+Excluding []
+Caching disabled for task ':compileKotlin' because:
+  Build cache is disabled
+Skipping task ':compileKotlin' as it is up-to-date.
+Resolve mutations for :compileJava (Thread[#2897,Execution worker Thread 5,5,main]) started.
+:compileJava (Thread[#2897,Execution worker Thread 5,5,main]) started.
+
+> Task :compileJava NO-SOURCE
+Skipping task ':compileJava' as it has no source files and no previous output files.
+Resolve mutations for :processResources (Thread[#2897,Execution worker Thread 5,5,main]) started.
+:processResources (Thread[#2897,Execution worker Thread 5,5,main]) started.
+
+> Task :processResources UP-TO-DATE
+Caching disabled for task ':processResources' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':processResources' as it is up-to-date.
+Resolve mutations for :classes (Thread[#2897,Execution worker Thread 5,5,main]) started.
+:classes (Thread[#2894,Execution worker Thread 2,5,main]) started.
+
+> Task :classes UP-TO-DATE
+Skipping task ':classes' as it has no actions.
+Resolve mutations for :jar (Thread[#2894,Execution worker Thread 2,5,main]) started.
+:jar (Thread[#2894,Execution worker Thread 2,5,main]) started.
+
+> Task :jar UP-TO-DATE
+Caching disabled for task ':jar' because:
+  Build cache is disabled
+  Not worth caching
+Skipping task ':jar' as it is up-to-date.
+Resolve mutations for :compileTestKotlin (Thread[#2894,Execution worker Thread 2,5,main]) started.
+:compileTestKotlin (Thread[#2894,Execution worker Thread 2,5,main]) started.
+
+> Task :compileTestKotlin UP-TO-DATE
+Excluding []
+Caching disabled for task ':compileTestKotlin' because:
+  Build cache is disabled
+Skipping task ':compileTestKotlin' as it is up-to-date.
+Resolve mutations for :compileTestJava (Thread[#2894,Execution worker Thread 2,5,main]) started.
+:compileTestJava (Thread[#2894,Execution worker Thread 2,5,main]) started.
+
+> Task :compileTestJava NO-SOURCE
+Skipping task ':compileTestJava' as it has no source files and no previous output files.
+Resolve mutations for :processTestResources (Thread[#2894,Execution worker Thread 2,5,main]) started.
+:processTestResources (Thread[#2894,Execution worker Thread 2,5,main]) started.
+
+> Task :processTestResources NO-SOURCE
+Skipping task ':processTestResources' as it has no source files and no previous output files.
+Resolve mutations for :testClasses (Thread[#2894,Execution worker Thread 2,5,main]) started.
+:testClasses (Thread[#2894,Execution worker Thread 2,5,main]) started.
+
+> Task :testClasses UP-TO-DATE
+Skipping task ':testClasses' as it has no actions.
+Resolve mutations for :test (Thread[#2894,Execution worker Thread 2,5,main]) started.
+:test (Thread[#2894,Execution worker Thread 2,5,main]) started.
+Gradle Test Executor 15 started executing tests.
+Gradle Test Executor 15 finished executing tests.
+
+> Task :test FAILED
+Caching disabled for task ':test' because:
+  Build cache is disabled
+Task ':test' is not up-to-date because:
+  Task has failed previously.
+file or directory '/Users/andreas/git/TogetherMath/build/classes/java/test', not found
+Starting process 'Gradle Test Executor 15'. Working directory: /Users/andreas/git/TogetherMath Command: /Library/Java/JavaVirtualMachines/jdk-21.jdk/Contents/Home/bin/java -Dorg.gradle.internal.worker.tmpdir=/Users/andreas/git/TogetherMath/build/tmp/test/work @/Users/andreas/.gradle/.tmp/gradle-worker-classpath9976887675119120315txt -Xmx512m -Dfile.encoding=UTF-8 -Duser.country=US -Duser.language=en -Duser.variant -ea worker.org.gradle.process.internal.worker.GradleWorkerMain 'Gradle Test Executor 15'
+Successfully started process 'Gradle Test Executor 15'
+
+MongoTaskStepRepositoryIntegrationTest STANDARD_OUT
+    14:49:13.659 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [org.togethermath.taskstep.adapter.persistence.MongoTaskStepRepositoryIntegrationTest]: MongoTaskStepRepositoryIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+    14:49:13.672 [Test worker] INFO org.testcontainers.images.PullPolicy -- Image pull policy will be performed by: DefaultPullPolicy()
+    14:49:13.673 [Test worker] INFO org.testcontainers.utility.ImageNameSubstitutor -- Image name substitution will be performed by: DefaultImageNameSubstitutor (composite of 'ConfigurationFileImageNameSubstitutor' and 'PrefixingImageNameSubstitutor')
+    14:49:13.678 [Test worker] INFO org.testcontainers.DockerClientFactory -- Testcontainers version: 1.20.6
+    14:49:13.841 [Test worker] INFO org.testcontainers.dockerclient.DockerMachineClientProviderStrategy -- docker-machine executable was not found on PATH ([/Users/andreas/mongodb/bin, /Users/andreas/.nvm/versions/node/v25.6.1/bin, /Users/andreas/miniconda3/bin, /usr/local/bin, /System/Cryptexes/App/usr/bin, /usr/bin, /bin, /usr/sbin, /sbin, /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/local/bin, /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/bin, /var/run/com.apple.security.cryptexd/codex.system/bootstrap/usr/appleinternal/bin, /opt/pmk/env/global/bin, /opt/X11/bin, /opt/homebrew/bin, /Users/andreas/Library/Application Support/JetBrains/Toolbox/scripts])
+    14:49:13.842 [Test worker] ERROR org.testcontainers.dockerclient.DockerClientProviderStrategy -- Could not find a valid Docker environment. Please check configuration. Attempted configurations were:
+    	EnvironmentAndSystemPropertyClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=unix:///Users/andreas/Library/Containers/com.docker.docker/Data/docker-cli.sock"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})
+    	UnixSocketClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=unix:///Users/andreas/Library/Containers/com.docker.docker/Data/docker-cli.sock"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})
+    	DockerDesktopClientProviderStrategy: failed with exception BadRequestException (Status 400: {"ID":"","Containers":0,"ContainersRunning":0,"ContainersPaused":0,"ContainersStopped":0,"Images":0,"Driver":"","DriverStatus":null,"Plugins":{"Volume":null,"Network":null,"Authorization":null,"Log":null},"MemoryLimit":false,"SwapLimit":false,"CpuCfsPeriod":false,"CpuCfsQuota":false,"CPUShares":false,"CPUSet":false,"PidsLimit":false,"IPv4Forwarding":false,"Debug":false,"NFd":0,"OomKillDisable":false,"NGoroutines":0,"SystemTime":"","LoggingDriver":"","CgroupDriver":"","NEventsListener":0,"KernelVersion":"","OperatingSystem":"","OSVersion":"","OSType":"","Architecture":"","IndexServerAddress":"","RegistryConfig":null,"NCPU":0,"MemTotal":0,"GenericResources":null,"DockerRootDir":"","HttpProxy":"","HttpsProxy":"","NoProxy":"","Name":"","Labels":["com.docker.desktop.address=unix:///Users/andreas/Library/Containers/com.docker.docker/Data/docker-cli.sock"],"ExperimentalBuild":false,"ServerVersion":"","Runtimes":null,"DefaultRuntime":"","Swarm":{"NodeID":"","NodeAddr":"","LocalNodeState":"","ControlAvailable":false,"Error":"","RemoteManagers":null},"LiveRestoreEnabled":false,"Isolation":"","InitBinary":"","ContainerdCommit":{"ID":""},"RuncCommit":{"ID":""},"InitCommit":{"ID":""},"SecurityOptions":null,"CDISpecDirs":null,"Warnings":null})As no valid configuration was found, execution cannot continue.
+    See https://java.testcontainers.org/on_failure.html for more details.
+
+MongoTaskStepRepositoryIntegrationTest > initializationError FAILED
+    org.testcontainers.containers.ContainerFetchException: Can't get Docker image: RemoteDockerImage(imageName=mongo:7.0, imagePullPolicy=DefaultPullPolicy(), imageNameSubstitutor=org.testcontainers.utility.ImageNameSubstitutor$LogWrappedImageNameSubstitutor@705f83a7)
+        at app//org.testcontainers.containers.GenericContainer.getDockerImageName(GenericContainer.java:1364)
+        at app//org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizerFactory.createSource(ServiceConnectionContextCustomizerFactory.java:89)
+        at app//org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizerFactory.lambda$collectSources$0(ServiceConnectionContextCustomizerFactory.java:64)
+        at app//org.springframework.core.annotation.TypeMappedAnnotations$AggregatesSpliterator.tryAdvance(TypeMappedAnnotations.java:610)
+        at app//org.springframework.core.annotation.TypeMappedAnnotations$AggregatesSpliterator.tryAdvance(TypeMappedAnnotations.java:577)
+        at java.base@21.0.9/java.util.Spliterator.forEachRemaining(Spliterator.java:332)
+        at java.base@21.0.9/java.util.stream.ReferencePipeline$Head.forEach(ReferencePipeline.java:762)
+        at app//org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizerFactory.lambda$collectSources$1(ServiceConnectionContextCustomizerFactory.java:64)
+        at app//org.springframework.util.ReflectionUtils.doWithLocalFields(ReflectionUtils.java:691)
+        at app//org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizerFactory.collectSources(ServiceConnectionContextCustomizerFactory.java:61)
+        at app//org.springframework.boot.testcontainers.service.connection.ServiceConnectionContextCustomizerFactory.createContextCustomizer(ServiceConnectionContextCustomizerFactory.java:53)
+        at app//org.springframework.test.context.support.AbstractTestContextBootstrapper.getContextCustomizers(AbstractTestContextBootstrapper.java:360)
+        at app//org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:332)
+        at app//org.springframework.test.context.support.AbstractTestContextBootstrapper.buildDefaultMergedContextConfiguration(AbstractTestContextBootstrapper.java:267)
+        at app//org.springframework.test.context.support.AbstractTestContextBootstrapper.buildMergedContextConfiguration(AbstractTestContextBootstrapper.java:215)
+        at app//org.springframework.test.context.support.AbstractTestContextBootstrapper.buildTestContext(AbstractTestContextBootstrapper.java:108)
+        at app//org.springframework.boot.test.context.SpringBootTestContextBootstrapper.buildTestContext(SpringBootTestContextBootstrapper.java:111)
+        at app//org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:142)
+        at app//org.springframework.test.context.TestContextManager.<init>(TestContextManager.java:126)
+        at app//org.springframework.test.context.junit.jupiter.SpringExtension.getTestContextManager(SpringExtension.java:362)
+        at app//org.springframework.test.context.junit.jupiter.SpringExtension.beforeAll(SpringExtension.java:128)
+        at java.base@21.0.9/java.util.ArrayList.forEach(ArrayList.java:1596)
+
+        Caused by:
+        java.lang.IllegalStateException: Could not find a valid Docker environment. Please see logs and check configuration
+            at org.testcontainers.dockerclient.DockerClientProviderStrategy.lambda$getFirstValidStrategy$7(DockerClientProviderStrategy.java:274)
+            at java.base/java.util.Optional.orElseThrow(Optional.java:403)
+            at org.testcontainers.dockerclient.DockerClientProviderStrategy.getFirstValidStrategy(DockerClientProviderStrategy.java:265)
+            at org.testcontainers.DockerClientFactory.getOrInitializeStrategy(DockerClientFactory.java:154)
+            at org.testcontainers.DockerClientFactory.client(DockerClientFactory.java:196)
+            at org.testcontainers.images.LocalImagesCache.get(LocalImagesCache.java:31)
+            at org.testcontainers.images.AbstractImagePullPolicy.shouldPull(AbstractImagePullPolicy.java:18)
+            at org.testcontainers.images.RemoteDockerImage.resolve(RemoteDockerImage.java:79)
+            at org.testcontainers.images.RemoteDockerImage.resolve(RemoteDockerImage.java:35)
+            at org.testcontainers.utility.LazyFuture.getResolvedValue(LazyFuture.java:20)
+            at org.testcontainers.utility.LazyFuture.get(LazyFuture.java:41)
+            at org.testcontainers.containers.GenericContainer.getDockerImageName(GenericContainer.java:1362)
+            ... 21 more
+
+1 test completed, 1 failed
+Generating HTML test report...
+Finished generating test html results (0.001 secs) into: /Users/andreas/git/TogetherMath/build/reports/tests/test
+Finished generating test XML results (0.0 secs) into: /Users/andreas/git/TogetherMath/build/test-results/test
+Build d4dfcdc6-e661-496d-ac0d-7c4ff8e96721 is closed
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':test'.
+> There were failing tests. See the report at: file:///Users/andreas/git/TogetherMath/build/reports/tests/test/index.html
+
+* Try:
+> Run with --scan to get full insights from a Build Scan (powered by Develocity).
+
+BUILD FAILED in 962ms
+5 actionable tasks: 1 executed, 4 up-to-date
+Watched directory hierarchies: [/Users/andreas/git/TogetherMath]
