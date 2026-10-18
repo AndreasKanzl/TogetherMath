@@ -1,12 +1,13 @@
 package org.togethermath.task.adapter.persistence
 
+import com.fasterxml.jackson.databind.JsonNode
 import org.togethermath.task.domain.model.TaskStep
 
 data class TaskStepDocument(
     val id: String? = null,
-    val name: String,
-    val description: String,
-    val help: String
+    val name: String? = null,
+    val description: JsonNode? = null,
+    val help: JsonNode? = null
 ) {
     fun toDomain(): TaskStep = TaskStep(id, name, description, help)
 
